@@ -1,0 +1,229 @@
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+.container {
+  width: 500px;
+  margin: 5% auto;
+}
+
+.wrapper {
+  width: 500px;
+  height: 500px;
+  /*background-color: #3e4444;*/
+  border-radius: 100%;
+  position: relative;
+  text-align: center;
+  font-size: 0px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.label {
+  font-size: 12px;
+}
+
+.center h1{
+  margin-top: 20px;
+  font-size: 46px;
+}
+
+.center #small {
+  font-size: 10px;
+  position: relative;
+  top: -25px;
+}
+
+.count {
+  width: 50px;
+}
+
+.buttons {
+  width: 50px;
+}
+
+.counter {
+  background-color: #cfe0e8;
+  width: 40px;
+  /*height: 40px;*/
+  padding: 4px 0;
+  border-radius: 20%;
+  text-align: center;
+  font-size: 25px;
+  margin: auto;
+  position: relative;
+  top: -2px;
+}
+
+.counter.counterOff {
+  color: #cfe0e8;
+}
+
+.roundBtn {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  position: relative;
+  top: -10px;
+  margin: auto;
+}
+
+.start {
+  background-color: #eca1a6;
+}
+
+.start.active{
+  background-color: #e58087;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(236,161,166,0.7);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(236,161,166,0.7);
+  box-shadow: 0px 0px 5px 2px rgba(236,161,166,0.7);
+
+}
+
+.strict{
+  background-color: #f2e394;
+}
+
+.strict.active{
+  background-color: #e7cb39;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(242,227,148,0.9);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(242,227,148,0.9);
+  box-shadow: 0px 0px 5px 2px rgba(242,227,148,0.9);
+}
+
+.onOff {
+  position: relative;
+  top: 10px;
+}
+
+.onOffButton {
+  background-color: #cfe0e8;
+  border-radius: 5px;
+  width: 50px;
+  height: 20px;
+  position: relative;
+  top: 5px;
+}
+
+.switch {
+  background-color: #87bdd8;
+  border-radius: 5px;
+  width: 21px;
+  height: 16px;
+  border: 2px solid #cfe0e8;
+}
+
+.switch.on {
+  margin-left: 25px;
+}
+
+
+.topLeft {
+  border-top-left-radius: 100%;
+  background-color: #96ceb4;
+}
+
+.topRight {
+   border-top-right-radius: 100%;
+   background-color: #c83349;
+ }
+
+ .bottomLeft {
+   border-bottom-left-radius: 100%;
+   background-color: #ffcc5c;
+ }
+
+ .bottomRight {
+   border-bottom-right-radius: 100%;
+   background-color: #4040a1;
+ }
+
+.flash {
+  position: relative;
+  z-index: 50;
+}
+
+ .topLeft.flash {
+  background-color: #87ddb5;
+  -webkit-box-shadow: -3px 2px 20px 12px rgba(150,206,180,0.5);
+  -moz-box-shadow: -3px 2px 20px 12px rgba(150,206,180,0.5);
+  box-shadow: -3px 2px 20px 12px rgba(150,206,180,0.5);
+ }
+
+.topRight.flash {
+  background-color: #e11a37;
+  -webkit-box-shadow: -3px 2px 20px 12px rgba(200,51,73,0.4);
+  -moz-box-shadow: -3px 2px 20px 12px rgba(200,51,73,0.4);
+  box-shadow: -3px 2px 20px 12px rgba(200,51,73,0.4);
+}
+
+.bottomLeft.flash {
+  background-color: #ffcc5c;
+  -webkit-box-shadow: -3px 2px 20px 12px rgba(255,204,92,0.4);
+  -moz-box-shadow: -3px 2px 20px 12px rgba(255,204,92,0.4);
+  box-shadow: -3px 2px 20px 12px rgba(255,204,92,0.4);
+}
+
+.bottomRight.flash {
+  background-color: #2929b7;
+  -webkit-box-shadow: -3px 2px 20px 12px rgba(64,64,161,0.3);
+  -moz-box-shadow: -3px 2px 20px 12px rgba(64,64,161,0.3);
+  box-shadow: -3px 2px 20px 12px rgba(64,64,161,0.3);
+}
+
+.error {
+  background-color: #000;
+  -webkit-box-shadow: -3px 2px 20px 12px rgba(153,153,153,0.8);
+  -moz-box-shadow: -3px 2px 20px 12px rgba(153,153,153,0.8);
+  box-shadow: -3px 2px 20px 12px rgba(153,153,153,0.8);
+  position: relative;
+  z-index: 50;
+}
+
+.circle {
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  margin-bottom: -6px;
+  font-size: 0px;
+  /*border: 10px solid #3e4444;*/
+}
+
+.center {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: #FFF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -100px 0 0 -100px;
+  z-index: 100;
+  /*margin: -140px 0 0 -140px;*/
+}
+
+.congrats {
+  width: 500px;
+  height: 494px;
+  border-radius: 100%;
+  position: absolute;
+  z-index: 500;
+  background-color: #c94c4c;
+  opacity: 0.9;
+  text-align: center;
+  color: #fff;
+  display: none;
+}
+
+.congrats h2 {
+  margin-top: 43%;
+  font-size: 25px;
+  font-weight: bold;
+}

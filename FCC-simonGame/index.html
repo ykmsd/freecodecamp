@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Simon Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,800,900" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="congrats">
+          <h2>Congratulations! You won the game!!!</h2>
+          <p>Click here to play again.</p>
+        </div>
+      <div class="wrapper">
+        <div class="center">
+          <h1>Simon<span id="small">®</span></h1>
+          <div class="count inline">
+            <h2 class="counter counterOff">--</h2>
+            <h3 class="label">COUNT</h3>
+          </div>
+          <div class="buttons inline">
+            <div class="roundBtn start"></div>
+            <h3 class="label">START</h3>
+          </div>
+          <div class="buttons inline">
+            <div class="roundBtn strict"></div>
+            <h3 class="label">STRICT</h3>
+          </div>
+          <div class="onOff">
+            <h3 class="label inline">OFF</h3>
+            <div class="onOffButton inline">
+              <div class="switch"></div>
+            </div>
+            <h3 class="label inline">ON</h3>
+          </div>
+        </div>
+        <div class="topLeft circle" id="0">
+          <audio id="audioTopLeft" src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" autostart="false" ></audio>
+        </div>
+        <div class="topRight circle" id="1">
+          <audio id="audioTopRight" src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3" autostart="false" ></audio>
+        </div>
+        <div class="bottomLeft circle" id="2">
+          <audio id="audioBottomLeft" src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" autostart="false" ></audio>
+        </div>
+        <div class="bottomRight circle" id="3">
+          <audio id="audioBottomLeft" src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" autostart="false" ></audio>
+        </div>
+      </div>
+  </div>
+
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

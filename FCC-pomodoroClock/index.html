@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pomodoro Clock</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Saira+Semi+Condensed" rel="stylesheet">
+</head>
+<body>
+
+
+
+<div id="container">
+
+	<h1>Pomodoro Clock</h1>
+
+	<div id="changeTimeButtons">
+		<div id="sessionLengthSetUp">
+			<p>Session Length</p>
+			<button class="minus">-</button>
+			<span id="sessionTime">20</span>
+			<button class="plus">+</button>
+		</div>
+
+		<div id="breakLengthSetUp">
+			<p>Break Length</p>
+			<button class="minus">-</button>
+			<span id="breakTime">5</span>
+			<button class="plus">+</button>
+		</div>
+	</div>
+
+	<div style="clear:both;"></div>
+
+	<div class="timerIsRunning">
+		<p>Session Time</p>
+	</div>
+
+	<div id="timer">
+		<p id="timerTime">20:00</p>
+	</div>
+
+	<div class="buttons">
+			<button id="switchButton">Start</button>
+	</div>
+
+</div>
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

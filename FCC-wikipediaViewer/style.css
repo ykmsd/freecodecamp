@@ -1,0 +1,66 @@
+body {
+  font-family: 'Arvo', serif;
+  background-color: #deeaee;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: #000;
+}
+
+button {
+  width: 60px;
+  height: 29px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Encode Sans', sans-serif;
+  text-transform: uppercase;
+  outline: none;
+}
+
+.container {
+  width: 800px;
+  margin: 40px auto 0;
+}
+
+.containerTop {
+  width: 400px;
+  margin: 0 auto 30px;
+  text-align: center;
+}
+
+#textInput {
+  height: 25px;
+  padding: 1px 1px 1px 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 15px;
+  vertical-align: bottom;
+  outline: none;
+}
+
+#search {
+  margin-left: 5px;
+  background-color: #36486b;
+  color: #fff;
+}
+
+#random {
+  margin-left: 5px;
+}
+
+.searchBox {
+  width: 760px;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #80ced6;
+  border-radius: 5px;
+  background-color: #fff;
+
+}

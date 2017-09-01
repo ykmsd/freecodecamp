@@ -1,0 +1,59 @@
+body {
+  background-color:  #6441A4;
+  font-family: 'Roboto', sans-serif;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: underline;
+    color: #000;
+}
+
+.container {
+  width: 600px;
+  height: 400px;
+  margin: 50px auto 0;
+  background-color: #FFF;
+  border-radius: 10px;
+}
+
+.container h1 {
+    color: #6441A4;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 20px;
+
+}
+
+table {
+  width: 90%;
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.channelName {
+  width: 40%;
+}
+
+.description {
+  width: 50%;
+}
+
+.icon, img{
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.freecodecamp.icon {
+  background-color: #006400;
+}
+
+.ESL_SC2.icon{
+  background-color: #80ced6;
+}
+
+.OgamingSC2.icon{
+  background-color: #eea29a;
+}

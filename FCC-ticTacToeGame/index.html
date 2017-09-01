@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan" rel="stylesheet">
+  </head>
+  <body>
+  <div id="outerContainer">
+      <div id="playerOneTurn">
+        <p>Your turn</p>
+      </div>
+      <div id="playerTwoTurn">
+        <p>Computer's turn</p>
+      </div>
+    <div id="container">
+      <div id="gameBoardBack">
+        <div id="gameInfo">
+          <p id="playerOne">You: <span id="playerOneScore">0</span></p>
+          <p id="playerTwo">Computer: <span id="playerTwoScore">0</span></p>
+          <button type="button" name="button">Reset Game</button>
+        </div>
+
+        <div id="gameBoard">
+          <div id="chooseTheSymbol">
+              <p>Would like to play as X or O?</p>
+              <button id="chooseX">X</button>
+              <button id="chooseO">O</button>
+          </div>
+          <div id="winMessage">
+            <p>You won! :)</p>
+          </div>
+          <div id="lostMessage">
+            <p>You lost :(</p>
+          </div>
+          <div id="drawMessage">
+            <p>It's a draw :|</p>
+          </div>
+          <canvas id="myCanvas"></canvas>
+          <ul id="boxes">
+            <li id="1"></li>
+            <li id="2"></li>
+            <li id="3"></li>
+            <li id="4"></li>
+            <li id="5"></li>
+            <li id="6"></li>
+            <li id="7"></li>
+            <li id="8"></li>
+            <li id="9"></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+
+body {
+	background-color: #87CEFA;
+	font-family: 'Saira Semi Condensed', sans-serif !important;
+	color: #FFFAFA;
+}
+
+p {
+	margin: 0;
+}
+
+button {
+	border: 0;
+	border-radius: 5em;
+  padding: 0.5em 2em;
+	background-color: #FFFAFA;
+	color: #87CEFA;
+	font-weight: bold;
+	outline: none;
+}
+
+#container {
+  width: 50%;
+  margin: auto;
+	text-align: center;
+}
+
+h1 {
+  font-size: 1.5em;
+	margin: 5% auto;
+}
+
+span {
+	margin: 0 2%;
+}
+
+#sessionLengthSetUp {
+	width: 25%;
+	margin-left: 25%;
+	float: left;
+	font-size: 1em;
+}
+
+#breakLengthSetUp {
+	width: 25%;
+	margin-right: 25%;
+	float: left;
+	font-size: 1em;
+}
+
+#timer p{
+	font-size: 10em;
+}
+
+#switchButton {
+	padding: 2em 5em;
+}
+
+#switchButtonActive {
+	background-color: #87CEFA;
+	color: #FFF;
+	padding: 2em 5em;
+}
+
+.active {
+	background-color: #FFFAFA;
+	color: #87CEFA;
+}
+
+.active #sessionLengthSetUp,
+.active #breakLengthSetUp {
+	display: none;
+}
+
+.timerIsRunning {
+	font-size: 2em;
+	display: none;
+}

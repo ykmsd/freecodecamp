@@ -1,0 +1,53 @@
+body {
+  font-family: 'Varela Round', sans-serif;
+  background-color: #87bdd8;
+  color: #fff2df;
+}
+
+a {
+  color:  #fff2df;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#container {
+  width: 50%;
+  margin: 5% auto 0;
+  text-align: left;
+}
+
+.name {
+  font-size: 50px;
+}
+
+li {
+  list-style: none;
+  margin: 0 5px 10px;
+}
+
+#aboutMe {
+  font-size: 30px;
+}
+
+.work {
+  font-size: 20px;
+}
+
+#workList {
+  font-size: 20px;
+  width: 70%;
+  display: none;
+}
+
+#workArray {
+  text-decoration: underline;
+  cursor: pointer;
+}
